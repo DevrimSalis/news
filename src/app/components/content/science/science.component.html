@@ -1,0 +1,11 @@
+<div class="row">
+    <h5>Bilim</h5>
+    <div *ngFor="let science of sciences" class="col-lg-3 mt-3 mb-3">
+        <div class="card" style="width: 18rem;">
+            <img src="{{science.urlToImage}}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <a href="{{science.url}}" target="_blank">{{science.title}}</a>
+            </div>
+        </div>
+    </div>
+</div>

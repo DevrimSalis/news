@@ -1,0 +1,11 @@
+<div class="row">
+    <h5>Genel</h5>
+    <div *ngFor="let content of contents" class="col-lg-3 mt-3 mb-3">
+        <div class="card" style="width: 18rem;">
+            <img src="{{content.urlToImage}}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <a href="{{content.url}}" target="_blank">{{content.title}}</a>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+<div class="row">
+    <h5>Spor</h5>
+    <div *ngFor="let sport of sports" class="col-lg-3 mt-3 mb-3">
+        <div class="card" style="width: 18rem;">
+            <img src="{{sport.urlToImage}}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <a href="{{sport.url}}" target="_blank">{{sport.title}}</a>
+            </div>
+        </div>
+    </div>
+</div>
