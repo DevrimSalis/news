@@ -1,23 +1,9 @@
 <div class="row">
-    <div class="col-12">
+    <div *ngFor="let slider of sliderRights" class="col-12">
         <div class="card">
-            <img src="https://foto.sondakika.com/manset/2021/11/01/ayni-gunde-3-arac-caldi-henuz-17-yasinda-suc_14498904_68_sd.jpg"
-                class="card-img-top" alt="...">
+            <img src="{{slider.urlToImage}}" class="card-img-top" alt="...">
             <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's
-                    content.</p>
-            </div>
-        </div>
-    </div>
-    <div class="col-12">
-        <div class="card card-two">
-            <img src="https://foto.sondakika.com/manset/2021/11/01/muthissin-alperen-19-yasindaki-gururumuz-nba-de_14499160_50_sd.jpg"
-                class="card-img-top" alt="...">
-            <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's
-                    content.</p>
+                <p class="card-text">{{slider.title}}</p>
             </div>
         </div>
     </div>
