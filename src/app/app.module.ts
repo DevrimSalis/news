@@ -13,6 +13,7 @@ import { TechnologyComponent } from './components/content/technology/technology.
 import { BusinessComponent } from './components/content/business/business.component';
 import { SporComponent } from './components/content/spor/spor.component';
 import { ScienceComponent } from './components/content/science/science.component';
+import { FilterContentPipe } from './pipes/filter-content.pipe';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ScienceComponent } from './components/content/science/science.component
     TechnologyComponent,
     BusinessComponent,
     SporComponent,
-    ScienceComponent
+    ScienceComponent,
+    FilterContentPipe
   ],
   imports: [
     BrowserModule,

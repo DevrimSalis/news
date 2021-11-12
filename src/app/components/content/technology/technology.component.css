@@ -4,10 +4,10 @@ a{
     font-weight: 600;
 }
 
-.card-img-top{
-    width: 285px;
+.card-img-top {
+    width: 100%;
     height: 170px;
-}
+  }
 
 .card-body{
     height: 180px;

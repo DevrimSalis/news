@@ -1,0 +1,9 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  .card {
+    margin-top: 20px;
+  }
+}
+
+.card-two{
+    margin-top: 10px;
+}
