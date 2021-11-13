@@ -1,4 +1,68 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "Heebo", sans-serif;
+}
+
+body {
+  background-color: #fcfcfc;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fcfcfc !important;
+  background-clip: border-box;
+  border: none !important;
+}
+
+.card-body {
+  padding: 1rem 0rem !important;
+}
+
+.hr {
+  margin-top: 20px;
+}
+
+.content-general {
+  background-color: #ff6f61;
+  color: white;
+  padding: 1px 10px;
+  border: 1px #ff6f61 solid;
+  border-radius: 2px;
+}
+
+.content-tech {
+  background-color: #5b5ea6;
+  color: white;
+  padding: 1px 10px;
+  border: 1px #5b5ea6 solid;
+  border-radius: 2px;
+}
+
+.content-spor {
+  background-color: #efc050;
+  color: white;
+  padding: 1px 10px;
+  border: 1px #efc050 solid;
+  border-radius: 2px;
+}
+
+.content-science {
+  background-color: #009b77;
+  color: white;
+  padding: 1px 10px;
+  border: 1px #009b77 solid;
+  border-radius: 2px;
+}
+
+.content-business {
+  background-color: #98B4D4;
+  color: white;
+  padding: 1px 10px;
+  border: 1px #98B4D4 solid;
+  border-radius: 2px;
 }

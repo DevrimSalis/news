@@ -1,0 +1,9 @@
+<div class="row">
+    <div class="col-md-2">
+        <h5><span class="hot-header">Son Dakika</span></h5>
+    </div>
+    <div *ngFor="let hot of hots" class="col-md-10">
+        <p><a href="{{hot.url}}">{{hot.title}}</a></p>
+    </div>
+    <hr>
+</div>

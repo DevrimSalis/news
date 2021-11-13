@@ -7,3 +7,12 @@
 .card {
   margin-bottom: 20px;
 }
+
+.card-text {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

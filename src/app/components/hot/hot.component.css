@@ -1,0 +1,23 @@
+.hot-header {
+  background-color: #ff851b;
+  color: white;
+  padding: 1px 10px;
+  border: 1px #ff851b solid;
+  border-radius: 2px;
+}
+
+.col-md-2 {
+  flex: 0 0 auto;
+  width: 11.666667%;
+}
+
+a {
+  text-decoration: none;
+  color: #aaaaaa;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .row {
+    display: none;
+  }
+}

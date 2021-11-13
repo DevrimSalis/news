@@ -14,6 +14,7 @@ import { BusinessComponent } from './components/content/business/business.compon
 import { SporComponent } from './components/content/spor/spor.component';
 import { ScienceComponent } from './components/content/science/science.component';
 import { FilterContentPipe } from './pipes/filter-content.pipe';
+import { HotComponent } from './components/hot/hot.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { FilterContentPipe } from './pipes/filter-content.pipe';
     BusinessComponent,
     SporComponent,
     ScienceComponent,
-    FilterContentPipe
+    FilterContentPipe,
+    HotComponent
   ],
   imports: [
     BrowserModule,
