@@ -8,8 +8,6 @@ import { ContentService } from 'src/app/services/content.service';
 })
 export class SliderComponent implements OnInit {
   sliderMains: any = []
-  sliderMains2: any = []
-  sliderMains3: any = []
   constructor(private contentService: ContentService) { }
 
   ngOnInit(): void {

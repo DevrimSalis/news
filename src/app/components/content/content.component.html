@@ -10,7 +10,7 @@
     </div>
     <hr class="hr">
     <h5><span class="content-general">Genel</span></h5>
-    <div *ngFor="let content of contents" class="col-lg-3 mt-3 mb-3">
+    <div *ngFor="let content of contents" class="col-lg-3 col-md-6 col-sm-6 mt-3 mb-3">
         <div class="card">
             <a href="{{content.url}}" target="_blank">
                 <img src="{{content.urlToImage}}" class="card-img-top" alt="...">
@@ -24,7 +24,7 @@
 <hr class="hr">
 <div class="row">
     <h5><span class="content-tech" routerLink="/technology">Teknoloji</span></h5>
-    <div *ngFor="let tech of techs" class="col-lg-3 mt-3 mb-3">
+    <div *ngFor="let tech of techs" class="col-lg-3 col-md-6 col-sm-6 mt-3 mb-3">
         <div class="card">
             <a href="{{tech.url}}" target="_blank">
                 <img src="{{tech.urlToImage}}" class="card-img-top" alt="...">
@@ -39,7 +39,7 @@
 
 <div class="row">
     <h5><span class="content-spor" routerLink="/sport">Spor</span></h5>
-    <div *ngFor="let spor of spors" class="col-lg-3 mt-3 mb-3">
+    <div *ngFor="let spor of spors" class="col-lg-3 col-md-6 col-sm-6 mt-3 mb-3">
         <div class="card">
             <a href="{{spor.url}}" target="_blank">
                 <img src="{{spor.urlToImage}}" class="card-img-top" alt="...">
@@ -53,7 +53,7 @@
 <hr class="hr">
 <div class="row">
     <h5><span class="content-science" routerLink="/science">Bilim</span></h5>
-    <div *ngFor="let science of sciences" class="col-lg-3 mt-3 mb-3">
+    <div *ngFor="let science of sciences" class="col-lg-3 col-md-6 col-sm-6 mt-3 mb-3">
         <div class="card">
             <a href="{{science.url}}" target="_blank">
                 <img src="{{science.urlToImage}}" class="card-img-top" alt="...">

@@ -16,6 +16,7 @@ import { ScienceComponent } from './components/content/science/science.component
 import { FilterContentPipe } from './pipes/filter-content.pipe';
 import { HotComponent } from './components/hot/hot.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
