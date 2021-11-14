@@ -2,7 +2,9 @@
     <h5><span class="content-business">İş</span></h5>
     <div *ngFor="let business of businesses" class="col-lg-3 mt-3 mb-3">
         <div class="card">
-            <img src="{{business.urlToImage}}" class="card-img-top" alt="...">
+            <a href="{{business.url}}" target="_blank">
+                <img src="{{business.urlToImage}}" class="card-img-top" alt="...">
+            </a>
             <div class="card-body">
                 <a href="{{business.url}}" target="_blank">{{business.title}}</a>
             </div>

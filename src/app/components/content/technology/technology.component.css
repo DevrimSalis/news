@@ -1,14 +1,10 @@
-a{
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
 }
 
 .card-img-top {
-    width: 100%;
-    height: 170px;
-  }
-
-.card-body{
-    height: 180px;
+  width: 100%;
+  height: 170px;
 }

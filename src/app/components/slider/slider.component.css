@@ -1,4 +1,9 @@
-.banner-img{
-    width: 100%;
-    cursor: pointer;
+.banner-img {
+  width: 100%;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }

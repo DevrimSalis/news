@@ -60,9 +60,15 @@ body {
 }
 
 .content-business {
-  background-color: #98B4D4;
+  background-color: #98b4d4;
   color: white;
   padding: 1px 10px;
-  border: 1px #98B4D4 solid;
+  border: 1px #98b4d4 solid;
   border-radius: 2px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .hr {
+    display: none;
+  }
 }

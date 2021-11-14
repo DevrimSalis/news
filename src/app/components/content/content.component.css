@@ -9,4 +9,25 @@ a {
   height: 170px;
 }
 
+.content-tech,
+.content-general,
+.content-spor,
+.content-science {
+  cursor: pointer;
+}
 
+.content-general:hover {
+  background-color: #fc594a;
+}
+
+.content-tech:hover {
+  background-color: #4044b4;
+}
+
+.content-spor:hover {
+  background-color: #f1b526;
+}
+
+.content-science:hover {
+  background-color: #04795d;
+}
