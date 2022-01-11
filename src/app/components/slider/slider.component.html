@@ -12,11 +12,32 @@
       <div class="carousel-inner">
         <div *ngFor="let slider of sliderMains" class="carousel-item active">
           <a href="{{slider.url}}" target="_blank">
+            <div class-img></div>
             <img src="{{slider.urlToImage}}" class="d-block w-100" alt="...">
           </a>
           <div class="carousel-caption d-none d-md-block">
             <a href="{{slider.url}}" target="_blank">
               <h5>{{slider.title}}</h5>
+            </a>
+          </div>
+        </div>
+        <div *ngFor="let slider2 of sliderMains2" class="carousel-item">
+          <a href="{{slider2.url}}" target="_blank">
+            <img src="{{slider2.urlToImage}}" class="d-block w-100" alt="...">
+          </a>
+          <div class="carousel-caption d-none d-md-block">
+            <a href="{{slider2.url}}" target="_blank">
+              <h5>{{slider2.title}}</h5>
+            </a>
+          </div>
+        </div>
+        <div *ngFor="let slider3 of sliderMains3" class="carousel-item">
+          <a href="{{slider3.url}}" target="_blank">
+            <img src="{{slider3.urlToImage}}" class="d-block w-100" alt="...">
+          </a>
+          <div class="carousel-caption d-none d-md-block">
+            <a href="{{slider3.url}}" target="_blank">
+              <h5>{{slider3.title}}</h5>
             </a>
           </div>
         </div>

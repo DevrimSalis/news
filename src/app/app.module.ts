@@ -16,6 +16,9 @@ import { ScienceComponent } from './components/content/science/science.component
 import { FilterContentPipe } from './pipes/filter-content.pipe';
 import { HotComponent } from './components/hot/hot.component';
 
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 
 @NgModule({
   declarations: [
@@ -35,7 +38,9 @@ import { HotComponent } from './components/hot/hot.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    Ng2SearchPipeModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

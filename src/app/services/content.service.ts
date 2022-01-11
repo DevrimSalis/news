@@ -7,15 +7,18 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ContentService {
-  apiUrl = "https://newsapi.org/v2/top-headlines?country=tr&categoryt&apiKey=c7b4b80caf264ea0ae6d7c4c37e45aa6";
 
-  techApiUrl = "https://newsapi.org/v2/top-headlines?country=tr&category=technology&apiKey=c7b4b80caf264ea0ae6d7c4c37e45aa6";
+  apikey = ''
+  baseUrl = 'https://newsapi.org/v2/top-headlines?country=tr&category'
+  apiUrl = this.baseUrl + "&" + this.apikey;
 
-  businessApiUrl = "https://newsapi.org/v2/top-headlines?country=tr&category=business&apiKey=c7b4b80caf264ea0ae6d7c4c37e45aa6";
+  techApiUrl = this.baseUrl + "=technology&" + this.apikey;
 
-  sportsApiUrl = "https://newsapi.org/v2/top-headlines?country=tr&category=sports&apiKey=c7b4b80caf264ea0ae6d7c4c37e45aa6";
+  businessApiUrl = this.baseUrl + "=business&" + this.apikey;
 
-  scienceApiUrl = "https://newsapi.org/v2/top-headlines?country=tr&category=science&apiKey=c7b4b80caf264ea0ae6d7c4c37e45aa6";
+  sportsApiUrl = this.baseUrl + "=sports&" + this.apikey;
+
+  scienceApiUrl = this.baseUrl + "=science&" + this.apikey;
   constructor(private httpClient: HttpClient) { }
 
   getContents(): Observable<any> {
